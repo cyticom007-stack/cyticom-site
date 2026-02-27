@@ -18,4 +18,5 @@ h1 { font-size:clamp(28px,5vw,52px); line-height:1.1; margin:.4em 0; }
 input,textarea { background:#0c1224; color:var(--fg); border:1px solid #26304b; border-radius:10px; padding:10px; }
 textarea { min-height:110px; resize:vertical; }
 .msg { color:var(--brand); min-height:1.2em; }
+.hidden { display:none; }
 .foot { color:var(--muted); padding:26px 0 32px; }

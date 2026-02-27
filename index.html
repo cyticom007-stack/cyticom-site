@@ -42,17 +42,34 @@
       </article>
     </section>
 
+    <section class="wrap grid">
+      <article class="card">
+        <h3>Why Cyticom?</h3>
+        <p>Fast execution, practical systems, and measurable outcomes — no fluff.</p>
+      </article>
+      <article class="card">
+        <h3>Expected Outcome</h3>
+        <p>Clarity + plan + execution support so you can move from confusion to paid action.</p>
+      </article>
+      <article class="card">
+        <h3>Typical Users</h3>
+        <p>Students, homemakers, job seekers, creators, and small business founders.</p>
+      </article>
+    </section>
+
     <section class="wrap" id="contact">
       <div class="card contact">
         <h2>Get your custom execution plan</h2>
         <p>Form bharo — hum aapko clear next-step roadmap denge.</p>
-        <form id="leadForm">
+        <form name="cyticom-leads" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you.html">
+          <input type="hidden" name="form-name" value="cyticom-leads" />
+          <p class="hidden"><label>Don’t fill this: <input name="bot-field" /></label></p>
           <input required name="name" placeholder="Your name" />
           <input required type="email" name="email" placeholder="Your email" />
+          <input name="phone" placeholder="WhatsApp number (optional)" />
           <textarea required name="goal" placeholder="Aapka goal kya hai? (income / project / MVP)"></textarea>
           <button class="btn" type="submit">Submit</button>
         </form>
-        <p id="msg" class="msg"></p>
       </div>
     </section>
   </main>
