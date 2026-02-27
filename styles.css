@@ -20,3 +20,5 @@ textarea { min-height:110px; resize:vertical; }
 .msg { color:var(--brand); min-height:1.2em; }
 .hidden { display:none; }
 .foot { color:var(--muted); padding:26px 0 32px; }
+.foot a { color: var(--brand); text-decoration: none; }
+.foot a:hover { text-decoration: underline; }
