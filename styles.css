@@ -2,8 +2,11 @@
 * { box-sizing:border-box; }
 body { margin:0; font-family:Inter,Segoe UI,Arial,sans-serif; background:var(--bg); color:var(--fg); }
 .wrap { width:min(980px,92%); margin:0 auto; }
-header { display:flex; justify-content:space-between; align-items:center; padding:22px 0; }
+header { display:flex; justify-content:space-between; align-items:center; gap:16px; padding:22px 0; }
 .brand { font-weight:700; letter-spacing:1px; }
+.top-nav { display:flex; align-items:center; gap:12px; flex-wrap:wrap; justify-content:flex-end; }
+.top-nav a { color: var(--brand); text-decoration: none; font-size: 0.95rem; }
+.top-nav a:hover { text-decoration: underline; }
 .hero { padding:64px 0 40px; }
 .tag { color:var(--brand); font-weight:600; }
 h1 { font-size:clamp(28px,5vw,52px); line-height:1.1; margin:.4em 0; }
